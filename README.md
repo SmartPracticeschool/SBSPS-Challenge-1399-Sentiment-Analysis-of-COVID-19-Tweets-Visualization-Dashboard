@@ -63,7 +63,13 @@ Back End : phpmyadmin, Tensorflow 2.2
 7. Locate SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard turn on virtualenv
 
     ```markdown
+    # Create Virtual environment
+    virtualenv venv
+    # Use Virtual environment
     source venv/bin/activate
+    # Install requirements
+    pip install -r requirements.txt
+    #run flask server
     python run.py
     ```
 
