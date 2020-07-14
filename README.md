@@ -13,8 +13,28 @@ According to the creators of the dataset:
  	''Our approach was unique because our training data was automatically created, as opposed to having humans manual annotate tweets. In our approach, we assume that any tweet with positive emoticons, like :), were positive, and tweets with negative emoticons, like :(, were negative. We used the Twitter Search API to collect these tweets by using keyword search''              
 so, with the help of visualization of sentiments we get prior notice of increasing negative sentiments curve
 
+### Technology Stack
 
-## Team Profile
+Front end: flask framework
+Back end : phpmyadmin, Tensorflow 2.2
+
+### Usage
+
+1. Download the repository
+
+    ```markdown
+    git clone https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard.git
+    ```
+
+2. Locate repository
+
+    ```markdown
+    cd SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard
+    ```
+
+
+
+### Team Profile
 
 1. Shubham Kondekar [Github](https://github.com/kondekarshubham123) , [Linkedin](https://in.linkedin.com/in/shubham-kondekar)
 
