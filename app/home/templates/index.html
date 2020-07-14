@@ -1,6 +1,6 @@
 {% extends "base_site.html" %}
 
-{% block title %} Blank Page {% endblock title %}
+{% block title %} Dashboard {% endblock title %}
 
 {% block stylesheets %}
 <!-- Specific CSS goes HERE -->
@@ -32,7 +32,7 @@
               <p>Positive Sentiments</p>
             </div>
             <div class="icon">
-              <i class="ion ion-person-add"></i>
+              <i class="fa fa-smile-o"></i>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
               <p>Neutral Sentiments</p>
             </div>
             <div class="icon">
-              <i class="fa fa-wheelchair"></i>
+              <i class="far fa-meh"></i>
             </div>
           </div>
         </div>
@@ -55,12 +55,12 @@
           <!-- small box -->
           <div class="small-box bg-red">
             <div class="inner">
-              <h1 style="font-size: 20px"; class="sentiment2"> Neutral : </h1>
+              <h1 style="font-size: 20px"; class="sentiment3"> Negative : </h1>
 
               <p>Negative Sentiments</p>
             </div>
             <div class="icon">
-              <i class="fa fa-heartbeat"></i>
+              <i class="far fa-frown-open"></i>
             </div>
           </div>
         </div>
@@ -327,7 +327,7 @@
         text: 'Daily Sentiment Analyser',
     },
     subtitle: {
-        text: 'Updates in one hour'
+        text: 'Updates in five minutes'
     },
     plotOptions: {
         pie: {
@@ -388,6 +388,9 @@ function chart(){
         }],
         title: {
             text: 'Live Wordcloud of Sentiments'
+        },
+        subtitle: {
+            text: 'Updates in One minutes'
         },credits: {
         enabled: false
     }
