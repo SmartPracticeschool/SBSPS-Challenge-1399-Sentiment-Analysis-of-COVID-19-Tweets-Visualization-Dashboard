@@ -69,7 +69,8 @@ Back end : phpmyadmin, Tensorflow 2.2
 
 8. Open `localhost:5000` on chrome and Visualize data in real time.
 
-
+### Screenshots
+![Image](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/blob/master/screenshots/Screenshot1.png)
 
 ### Team Profile
 
