@@ -16,10 +16,10 @@ so, with the help of visualization of sentiments we get prior notice of increasi
 
 ## Team Profile
 
-1. Shubham Kondekar[Github](https://github.com/kondekarshubham123) or [Linkedin](https://in.linkedin.com/in/shubham-kondekar)
+1. Shubham Kondekar [Github](https://github.com/kondekarshubham123) , [Linkedin](https://in.linkedin.com/in/shubham-kondekar)
 
-2. Pranali Yangandul[Github](https://github.com/Pranaliyangandul) or [Linkedin](https://in.linkedin.com/in/pranaliyangandul)
+2. Pranali Yangandul [Github](https://github.com/Pranaliyangandul) , [Linkedin](https://in.linkedin.com/in/pranaliyangandul)
 
-3. Sarthak Phatate[Github](https://github.com/SarthakPhatate) or [Linkedin](https://in.linkedin.com/in/sarthak-phatate-292794175)
+3. Sarthak Phatate [Github](https://github.com/SarthakPhatate) , [Linkedin](https://in.linkedin.com/in/sarthak-phatate-292794175)
 
-4. Sarthak Phatate[Github](https://github.com/nileshchilka1) or [Linkedin](https://in.linkedin.com/in/nilesh-chilka-8a55b4146)
+4. Nilesh Chilka [Github](https://github.com/nileshchilka1) , [Linkedin](https://in.linkedin.com/in/nilesh-chilka-8a55b4146)
