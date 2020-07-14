@@ -67,7 +67,7 @@ Back end : phpmyadmin, Tensorflow 2.2
 
 
 
-8. Open `localhost:5000` and Visualize data in real time.
+8. Open `localhost:5000` on chrome and Visualize data in real time.
 
 
 

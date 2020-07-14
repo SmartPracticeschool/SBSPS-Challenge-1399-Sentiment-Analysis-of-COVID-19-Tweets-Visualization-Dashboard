@@ -40,9 +40,9 @@ def dataPie():
     # Data Format
     # [Positive, Netural, Negative]
 
-    Positive = 10
-    Netural = 10
-    Negative = 10
+    Positive = 68
+    Netural = 45
+    Negative = 92
 
     data = [Positive, Netural, Negative]
 
@@ -72,7 +72,7 @@ def data():
 @blueprint.route('/words', methods=["GET", "POST"])
 def wordsdata():
 
-    data = "My Name is Shubsdfghjkwhdc wudiwuddad ksd ham Kondekar Kondekar Kondekar"
+    data = "High profile international sporting events such Olympics or World Cups well international religious events such Hajj count mass gatherings. However, lower profile conferences and events can also meet WHO’s definition mass gathering. An event counts mass gatherings if number people it brings together so large that it has potential to strain planning and response resources health system community where it takes place. You need to consider location and duration event well number participants. For example, if event takes place over several days small island state where capacity health system quite limited then even an event with just few thousand participants could place big strain on health system and then be considered mass gathering event. Conversely, if event held big city country with large, well-resourced health system and lasts just few hours, event may not constitute mass gathering event."
 
     response = make_response(json.dumps(data))
 
@@ -80,18 +80,3 @@ def wordsdata():
 
     return response
 
-@blueprint.route('/barchart',methods=["GET","POST"])
-def barchart():
-    # Positive = [ele1,ele2,ele3,ele4,ele5]
-    # Neutral = [ele1,ele2,ele3,ele4,ele5]
-    # Negative = [ele1,ele2,ele3,ele4,ele5]
-
-    # data = [Positive,Neutral,Negative]
-
-    data = [[3,2,3,4,5],[5,6,1,2,3],[1,5,9,8,3]]
-    
-    response = make_response(json.dumps(data))
-
-    response.content_type = 'application/json'
-
-    return response
