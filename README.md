@@ -27,13 +27,19 @@ Back end : phpmyadmin, Tensorflow 2.2
     git clone https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard.git
     ```
 
+
+
 2. Locate repository
 
     ```markdown
     cd SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard
     ```
 
+
+
 3. Start the phpmyadmin server and create database named twitterdb
+
+
 
 4. Locate Model Building for data Grathering
 
@@ -41,10 +47,16 @@ Back end : phpmyadmin, Tensorflow 2.2
     cd model building
     ```
 
+
+
 5. Edit `credentials.py` with your twitterAPI keys
+
+
 
 6. Extract `model.h5.tar.gz` and run jupyter-server and run all the cells in  `IBM_Challenge.ipynb`
     Now data will be store on `tweeterdb` which we have created in Usage 3
+
+
 
 7. Locate SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard turn on virtualenv
 
@@ -52,10 +64,11 @@ Back end : phpmyadmin, Tensorflow 2.2
     source venv/bin/activate
     python run.py
     ```
-    
+
+
+
 8. Open `localhost:5000` and Visualize data in real time.
 
-All Done !!
 
 
 ### Team Profile
