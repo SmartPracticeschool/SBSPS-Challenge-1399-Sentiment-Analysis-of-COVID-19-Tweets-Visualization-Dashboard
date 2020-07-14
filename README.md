@@ -8,10 +8,12 @@ Also develop a dashboard with visualization of people reaction to the govt annou
 
 ### Proposed Solution
 
-Inorder to solve above problem, We have build deep learning analytics model to understand the sentiments of people. For building the model we have used sentiment140 dataset. It contains 1,600,000 tweets extracted using the twitter api. The tweets have been annotated (-1 = negative, 0 = neutral, 1 = positive)
+Inorder to solve above problem, We have build predictive system to understand the sentiments of people from Live Tweets. For building the model we have used sentiment140 dataset. It contains 1,600,000 tweets extracted using the Twitter API. The tweets have been annotated (-1 = negative, 0 = neutral, 1 = positive)
+
 According to the creators of the dataset:
- 	''Our approach was unique because our training data was automatically created, as opposed to having humans manual annotate tweets. In our approach, we assume that any tweet with positive emoticons, like :), were positive, and tweets with negative emoticons, like :(, were negative. We used the Twitter Search API to collect these tweets by using keyword search''              
-so, with the help of visualization of sentiments we get prior notice of increasing negative sentiments curve
+ 	''Our approach was unique because our training data was automatically created, as opposed to having humans manual annotate tweets. In our approach, we assume that any tweet with positive emoticons, like :), were positive, and tweets with negative emoticons, like :(, were negative. We used the Twitter Search API to collect these tweets by using keyword search''          
+    
+So, with the help of visualization of these Live sentiments we get prior notice of increasing negative sentiments curve.
 
 ### Technology Stack
 
