@@ -68,13 +68,13 @@ Back End : phpmyadmin, Tensorflow 2.2
 
     ```markdown
     # Create Virtual environment
-    virtualenv venv
+    $ virtualenv venv
     # Use Virtual environment
-    source venv/bin/activate
+    $ source venv/bin/activate
     # Install requirements
-    pip install -r requirements.txt
+    $ pip install -r requirements.txt
     #run flask server
-    python run.py
+    $ python run.py
     ```
 
 
