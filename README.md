@@ -26,7 +26,7 @@ Back End : phpmyadmin, Tensorflow 2.2
 1. Download the repository
 
     ```markdown
-    git clone https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard.git
+    $ git clone https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard.git
     ```
 
 
@@ -34,7 +34,7 @@ Back End : phpmyadmin, Tensorflow 2.2
 2. Locate repository
 
     ```markdown
-    cd SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard
+    $ cd SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard
     ```
 
 
@@ -46,7 +46,7 @@ Back End : phpmyadmin, Tensorflow 2.2
 4. Locate Model Building for data Grathering
 
     ```markdown
-    cd model building
+    $ cd model building
     ```
 
 
