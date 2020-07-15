@@ -15,6 +15,10 @@ According to the creators of the dataset:
     
 So, with the help of visualization of these Live sentiments we get prior notice of increasing negative sentiments curve.
 
+### Flow diagram
+
+![Image1](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/flow.png)
+
 ### Technology Stack
 
 Front End: Flask Framework
@@ -79,9 +83,9 @@ Back End : phpmyadmin, Tensorflow 2.2
 
 ### Screenshots
  
-![Image1](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/Screenshot1.png)
+![Image2](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/Screenshot1.png)
 
-![Image2](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/Screenshot2.png)
+![Image3](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/Screenshot2.png)
 
 ### Team Profile
 
