@@ -144,29 +144,6 @@
   var loa;
   var data = [];
   var WordChart
-  var BarChart
-
-
-  function requestBar() {
-    var requestsBar = $.get('/barchart');
-
-    var tm = requestsBar.done(function(result){
-      console.log(result[0])
-
-      for (let index = 0; index < result[0].length; index++) {
-        BarChart.series[0].data[index].update(result[0][index]);
-      }
-      for (let index = 0; index < result[1].length; index++) {
-        BarChart.series[1].data[index].update(result[1][index]);
-      }
-      for (let index = 0; index < result[2].length; index++) {
-        BarChart.series[2].data[index].update(result[2][index])
-      }
-
-      // console.log(BarChart.series[0].data[0])
-    });
-    
-  }
 
   function requestDatala(){
         var requests = $.get('/dataPiecha');
@@ -180,7 +157,7 @@
 
 
 
-            setTimeout(requestDatala,2000);
+            setTimeout(requestDatala,7000);
 
         });
     }
@@ -235,7 +212,7 @@
           $(".sentiment3").text("Negative : " +  Math.round(data3[1]) );
 
           // call it again after one second
-          setTimeout(requestData, 2000);
+          setTimeout(requestData, 5000);
 
       });
   }
@@ -401,7 +378,7 @@ function chart(){
 chart()
 setInterval(() => {
   chart(); 
-}, 3000);
+}, 2000);
 
 });
 
