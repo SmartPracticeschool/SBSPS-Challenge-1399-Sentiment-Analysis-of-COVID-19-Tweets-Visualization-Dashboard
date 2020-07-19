@@ -40,9 +40,9 @@ def dataPie():
     # Data Format
     # [Positive, Netural, Negative]
 
-    Positive = 68
-    Netural = 45
-    Negative = 92
+    Positive = random() * 100
+    Netural = random() * 55
+    Negative = random() * 67
 
     data = [Positive, Netural, Negative]
 
@@ -79,4 +79,3 @@ def wordsdata():
     response.content_type = 'application/json'
 
     return response
-
