@@ -7,20 +7,7 @@
 {% endblock %}
 
 {% block content %}
-<!-- Resources -->
-<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/themes/dataviz.js"></script>
-<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 
-
-<style>
-  #chartdiv {
-  width: 100%;
-  height: 400px;
-}
-</style>
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
@@ -134,7 +121,7 @@
               <h3 class="box-title">Word Cloud</h3>
             </div>
             <div class="box-body">
-              <div id="chartdiv"></div>
+              <div id="wordcloud"></div>
             </div>
             <!-- /.box-body -->
           </div>
@@ -175,57 +162,9 @@
         });
     }
 
-  var a = 0;    
-    function pastdata(){
-    var requests = $.get('/past');
-    // past = [time,pos,neg,net]
-    var d = requests.done(function (result){
-      for (let index = 0; index < result.length; index+=4) {
-
-        // console.log(index)
-        // console.log(index+1)
-        // console.log(index+2)
-        // console.log(index+3)
-
-        var seriesTemperature = chartTemperatue.series[0],
-              shiftTemperature = seriesTemperature.data.length > 200;
-
-
-          // Add the Point
-          // Positive
-          var pas1 = [];
-          pas1.push(result[index]);
-          pas1.push(result[index+1]);
-
-
-          // Add the Point
-          // Netural
-          var pas2 = [];
-          pas2.push(result[index]);
-          pas2.push(result[index+2]);
-
-
-          // Add the Point
-          // Negative
-          var pas3 = [];
-          pas3.push(result[index]);
-          pas3.push(result[index+3]);
-
-
-
-          chartTemperatue.series[0].addPoint(pas1, true, shiftTemperature);
-          chartTemperatue.series[1].addPoint(pas2, true, shiftTemperature);
-          chartTemperatue.series[2].addPoint(pas3, true, shiftTemperature);
-      }
-    });
-  }
 
   function requestData()
   {
-      if (a == 0){
-            pastdata();
-            a++;
-      }
       // Ajax call to get the Data from Flask
       var requests = $.get('/data');
 
@@ -261,20 +200,19 @@
           chartTemperatue.series[0].addPoint(data1, true, shiftTemperature);
           chartTemperatue.series[1].addPoint(data2, true, shiftTemperature);
           chartTemperatue.series[2].addPoint(data3, true, shiftTemperature);
-          console.log(chartTemperatue.series[0].length)
-
+        //   console.log(chartTemperatue.series[0].data)
 
           $(".sentiment1").text("");
-          $(".sentiment1").text("Positive : " +  Math.round(data1[1]) ); // replace data1[1] with result[4]
+          $(".sentiment1").text("Positive : " +  Math.round(data1[1]) );
 
           $(".sentiment2").text("");
-          $(".sentiment2").text("Neutral : " +  Math.round(data2[1]) ); // replace data2[1] with result[5]
+          $(".sentiment2").text("Neutral : " +  Math.round(data2[1]) );
 
           $(".sentiment3").text("");
-          $(".sentiment3").text("Negative : " +  Math.round(data3[1]) ); // replace data3[1] with result[6]
+          $(".sentiment3").text("Negative : " +  Math.round(data3[1]) );
 
           // call it again after one second
-          setTimeout(requestData, 30000);
+          setTimeout(requestData, 5000);
 
       });
   }
@@ -331,8 +269,8 @@
           data: [],
           color: "#ff3737"
       }]
-  });      
-  // --------------Chart 1 Ends - -----------------
+  });
+      // --------------Chart 1 Ends - -----------------
     loa = Highcharts.chart('DonutCha', {
     chart: {
         type: 'pie',
@@ -369,47 +307,63 @@
     }]
   });
   // --------------Chart 2 Ends -------------------
-  am4core.ready(function() {
-  
-  // Themes begin
-  am4core.useTheme(am4themes_dataviz);
-  am4core.useTheme(am4themes_animated);
-  // Themes end
-  
-  var chart = am4core.create("chartdiv", am4plugins_wordCloud.WordCloud);
-  var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
-  
-  series.accuracy = 4;
-  series.step = 15;
-  series.rotationThreshold = 0.7;
-  series.maxCount = 200;
-  series.minWordLength = 2;
-  series.labels.template.margin(4,4,4,4);
-  series.maxFontSize = am4core.percent(30);
-  
-  series.text = "Sentiments" 
 
-  series.colors = new am4core.ColorSet();
-  series.colors.passOptions = {}; // makes it loop
-  
-  //series.labelsContainer.rotation = 45;
-  series.angles = [0,-90];
-  series.fontWeight = "700"
-  
-  setInterval(function () {
-    
-    var requests = $.get('/words');
-
-    var tm = requests.done(function (result){
-
-    series.text = result;   
-    })
-    series.dataItems.getIndex(Math.round(Math.random() * (series.dataItems.length - 1))).setValue("value", Math.round(Math.random() * 10));
-   }, 10000)
-  
-  }); // end am4core.ready()
+function chart(){
+  var requests = $.get('/words')
+  // console.log(requests);
+  var tm = requests.done(function (result){
+  var text = result;
+  var lines = text.split(/[,\. ]+/g)
+    data = Highcharts.reduce(lines, function (arr, word) {
+        var obj = Highcharts.find(arr, function (obj) {
+            return obj.name === word;
+        });
+        if (obj) {
+            obj.weight += 1;
+        } else {
+            obj = {
+                name: word,
+                weight: 1
+            };
+            arr.push(obj);
+        }
+        return arr;
+    }, []);
 
 
+  WordChart = new Highcharts.chart({
+        chart:{
+            renderTo : 'wordcloud'
+        },
+        accessibility: {
+            screenReaderSection: {
+                beforeChartFormat: '<h5>{chartTitle}</h5>' +
+                    '<div>{chartSubtitle}</div>' +
+                    '<div>{chartLongdesc}</div>' +
+                    '<div>{viewTableButton}</div>'
+            }
+        },
+        series: [{
+            type: 'wordcloud',
+            data: data,
+            name: 'Occurrences'
+        }],
+        title: {
+            text: 'Live Wordcloud of Sentiments'
+        },
+        subtitle: {
+            text: 'Updates in One minutes'
+        },credits: {
+        enabled: false
+    }
+    });
+
+  });
+}
+chart()
+setInterval(() => {
+  chart(); 
+}, 1000);
 
 });
 

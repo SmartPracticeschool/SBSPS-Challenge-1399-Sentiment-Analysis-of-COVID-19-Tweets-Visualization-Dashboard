@@ -79,3 +79,18 @@ def wordsdata():
     response.content_type = 'application/json'
 
     return response
+
+@blueprint.route('/past', methods=["GET", "POST"])
+def pastdata():
+    
+    Positive = random() * 100
+    Netural = random() * 55
+    Negative = random() * 67
+
+    data = [time.mktime(time.gmtime()) * 1000, Positive, Netural, Negative,time.mktime(time.gmtime()) * 1000, Positive, Netural, Negative,time.mktime(time.gmtime()) * 1000, Positive, Netural, Negative]
+
+    response = make_response(json.dumps(data))
+
+    response.content_type = 'application/json'
+
+    return response
