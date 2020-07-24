@@ -62,7 +62,6 @@ Back End : MySql DB, Tensorflow 2.2
     $ cd ..
     $ cd FrontEnd UI
     $ pip install requirements.txt
-    #
     $ #run flask server
     $ python run.py
     ```
