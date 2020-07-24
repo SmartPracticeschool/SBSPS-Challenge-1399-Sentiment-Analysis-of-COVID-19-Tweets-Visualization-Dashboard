@@ -85,7 +85,7 @@ Back End : phpmyadmin, Tensorflow 2.2
  
 ![Screenshot1](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/blob/master/screenshots/Warriors1.png)
 
-![Click Here](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/wiki/Screenshots) to see more screenshots
+[Click Here](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/wiki/Screenshots) to see more screenshots
 
 ### Team Profile
 
