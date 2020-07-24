@@ -55,45 +55,19 @@ Back End : MySql DB, Tensorflow 2.2
     $ # virtualenv env
     $ # .\env\Scripts\activate
     $
-    $ # Install modules - SQLite Database
-    $ pip3 install -r requirements.txt
-    ```
-
-
-
-4. Locate Model Building for data Grathering
-
-    ```markdown
-    $ cd model building
-    ```
-
-
-
-5. Edit `credentials.py` with your twitterAPI keys
-
-
-
-6. Extract `model.h5.tar.gz` and run jupyter-server and run all the cells in  `IBM_Challenge.ipynb`
-    Now data will be store on `tweeterdb` which we have created in Usage 3
-
-
-
-7. Locate SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard turn on virtualenv
-
-    ```markdown
-    # Create Virtual environment
-    $ virtualenv venv
-    # Use Virtual environment
-    $ source venv/bin/activate
-    # Install requirements
-    $ pip install -r requirements.txt
-    #run flask server
+    $
+    $ cd "Backed Model"
+    $ pip install requirements.txt
+    $
+    $ cd ..
+    $ cd FrontEnd UI
+    $ pip install requirements.txt
+    #
+    $ #run flask server
     $ python run.py
     ```
 
-
-
-8. Open `localhost:5000` on chrome and Visualize data in real time.
+4. Open `localhost:5000` on chrome and Visualize data in real time.
 
 ---
 
