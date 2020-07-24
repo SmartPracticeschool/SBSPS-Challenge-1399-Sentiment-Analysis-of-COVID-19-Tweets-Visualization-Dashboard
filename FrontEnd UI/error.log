@@ -1,0 +1,251 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-860-273
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:10] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:13] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:18] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:21] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:23] "[37mGET /page-live HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:24] "[37mGET /page-tweets HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:30] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:31] "[31m[1mGET /index HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:31] "[37mGET /static/assets/icheck/square/blue.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:31] "[37mGET /static/assets/icheck/icheck.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:36] "[31m[1mGET /index HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:37] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:39] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:44] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:56:52] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\phatate\\Downloads\\final\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-860-273
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:57:53] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:57:55] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:57:58] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:01] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:03] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:09] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:11] "[37mGET /page-live HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:13] "[37mGET /page-tweets HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:19] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:21] "[37mGET /page-tweets HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:22] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:25] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:28] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:32] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:34] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:36] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:39] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:42] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:53] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:58:56] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:59:04] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:59:14] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:59:33] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:59:42] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:59:46] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 14:59:52] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:02] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:09] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:18] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:27] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:36] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:46] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:52] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:00:54] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:03] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:25] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:32] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:42] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:51] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:01:58] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:02:03] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:02:13] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:02:23] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:02:32] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:02:44] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:02:56] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:04] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:06] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:13] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:23] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:34] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:43] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:03:53] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:07] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:15] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:24] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:35] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:44] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:04:54] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:06] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:24] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:24] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:34] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:45] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:05:53] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:02] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:12] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:21] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:34] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:34] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:46] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:06:54] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:03] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:14] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:22] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:33] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:46] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:48] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:07:55] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:04] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:26] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:34] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:43] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:52] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:08:56] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:04] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:15] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:20] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:28] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:37] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:47] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:09:56] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:04] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:06] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:26] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:35] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:46] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:10:56] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:06] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:15] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:18] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:25] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:34] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:43] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:11:53] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:03] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:13] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:22] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:24] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:33] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:42] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:12:52] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:13:03] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:16:49] "[37mGET /page-live HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:16:50] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:18:26] "[37mGET /page-live HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:18:28] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:26] "[37mGET /page-tweets HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:33] "[37mGET /index HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:41] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:44] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:46] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:54] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:19:56] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 15:20:06] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\phatate\\Downloads\\final\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-860-273
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/adminlte.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/ionicons/css/ionicons.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/skins/_all-skins.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/jquery-jvectormap.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/daterangepicker.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/morris.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:54] "[36mGET /static/assets/css/bootstrap3-wysihtml5.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/morris.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/raphael.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/jquery-ui.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/jquery.knob.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/jquery-jvectormap-1.2.2.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/moment.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/daterangepicker.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:55] "[36mGET /static/assets/js/jquery-jvectormap-world-mill-en.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/jquery.sparkline.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/fastclick.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/demo.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/jquery.slimscroll.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/bootstrap3-wysihtml5.all.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:56] "[36mGET /static/assets/js/adminlte.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:18:57] "[36mGET /static/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:06] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:07] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:08] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:16] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:18] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:24] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:34] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:44] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:19:54] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:06] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:16] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:17] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:25] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\phatate\\Downloads\\final\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-860-273
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:46] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:48] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:50] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:52] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:20:55] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:01] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:11] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\phatate\\Downloads\\final\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-860-273
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:16] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:17] "[35m[1mGET /words HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:18] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:20] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:22] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:24] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:32] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:42] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:21:51] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:02] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:11] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:22] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\phatate\\Downloads\\final\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 190-860-273
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:31] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:33] "[35m[1mGET /words HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:33] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:33] "[37mGET /past HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:35] "[37mGET /data HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:39] "[37mGET /dataPiecha HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:47] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:22:57] "[37mGET /words HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jul/2020 18:23:08] "[37mGET /words HTTP/1.1[0m" 200 -
