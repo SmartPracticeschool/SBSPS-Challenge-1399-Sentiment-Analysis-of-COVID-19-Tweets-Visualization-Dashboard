@@ -25,7 +25,7 @@ So, with the help of visualization of these Live sentiments we get prior notice 
 
 ### Technology Stack
 
-Front End: Flask Framework, Python3
+Front End: HTML, CSS & JavaScript
 
 Back End : MySql DB, Tensorflow 2.2
 
