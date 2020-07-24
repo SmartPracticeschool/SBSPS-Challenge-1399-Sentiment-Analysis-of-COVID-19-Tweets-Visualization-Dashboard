@@ -33,23 +33,31 @@ Back End : MySql DB, Tensorflow 2.2
 
 ### Usage
 
-1. Download the repository
+1. Download repository & locate it
 
     ```markdown
     $ git clone https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard.git
-    ```
-
-
-
-2. Locate repository
-
-    ```markdown
+    
     $ cd SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard
     ```
 
+2. Make required [required configuration](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/wiki/Configuration)
 
 
-3. Start the phpmyadmin server and create database named twitterdb
+3. Create virtualenv and activate it
+    ```markdown
+    $ # Virtualenv modules installation (Unix based systems)
+    $ virtualenv env
+    $ source env/bin/activate
+    $
+    $
+    $ # Virtualenv modules installation (Windows based systems)
+    $ # virtualenv env
+    $ # .\env\Scripts\activate
+    $
+    $ # Install modules - SQLite Database
+    $ pip3 install -r requirements.txt
+    ```
 
 
 
