@@ -17,7 +17,7 @@ So, with the help of visualization of these Live sentiments we get prior notice 
 
 ### Flow diagram
 
-![Image1](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/flow.png)
+![Flow](https://smartpracticeschool.github.io/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/screenshots/FlowandBlockDiagram/flow.png)
 
 ### Technology Stack
 
@@ -83,7 +83,7 @@ Back End : phpmyadmin, Tensorflow 2.2
 
 ### Screenshots
  
-![Screenshot1](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/blob/master/screenshots/Warriors1.png)
+![Screenshot1](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/blob/master/screenshots/Dashboard/Warriors1.png)
 
 [Click Here](https://github.com/SmartPracticeschool/SBSPS-Challenge-1399-Sentiment-Analysis-of-COVID-19-Tweets-Visualization-Dashboard/wiki/Screenshots) to see more screenshots
 
